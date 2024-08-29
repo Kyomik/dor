@@ -1,3 +1,8 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -11,6 +16,7 @@ body {
   visibility: hidden;
 }
 
+
 .container {
   height: 100vh;
   margin: 0 auto;
@@ -18,7 +24,7 @@ body {
   position: relative;
   text-align: center;
   visibility: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 .container > div {
@@ -250,7 +256,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .container {
     width: 90%;
   }
